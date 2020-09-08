@@ -1,0 +1,9 @@
+C:\networkspace\FirstLib\bin\Debug\netstandard2.0\FirstLib.deps.json
+C:\networkspace\FirstLib\bin\Debug\netstandard2.0\FirstLib.dll
+C:\networkspace\FirstLib\bin\Debug\netstandard2.0\FirstLib.pdb
+C:\networkspace\FirstLib\obj\Debug\netstandard2.0\FirstLib.csprojAssemblyReference.cache
+C:\networkspace\FirstLib\obj\Debug\netstandard2.0\FirstLib.AssemblyInfoInputs.cache
+C:\networkspace\FirstLib\obj\Debug\netstandard2.0\FirstLib.AssemblyInfo.cs
+C:\networkspace\FirstLib\obj\Debug\netstandard2.0\FirstLib.csproj.CoreCompileInputs.cache
+C:\networkspace\FirstLib\obj\Debug\netstandard2.0\FirstLib.dll
+C:\networkspace\FirstLib\obj\Debug\netstandard2.0\FirstLib.pdb
