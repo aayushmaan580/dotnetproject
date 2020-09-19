@@ -7,6 +7,7 @@ namespace FirstcoreProject
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("hi!");
             System.Console.WriteLine("Enter Choice");
             int ch = System.Convert.ToInt32(System.Console.ReadLine());
             Arithmetic a  = ArithmeticFactory.getFactory(ch);

@@ -1,0 +1,6 @@
+projectKey=FirstCoreProject
+serverUrl=http://localhost:9000
+serverVersion=8.4.1.35646
+dashboardUrl=http://localhost:9000/dashboard?id=FirstCoreProject
+ceTaskId=AXSl9VCNrbQHHcPYE07A
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXSl9VCNrbQHHcPYE07A
