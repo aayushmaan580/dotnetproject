@@ -12,5 +12,6 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ProjectGuid>{9e820ef2-3098-4de8-8c9d-3da5a8c4fd27}</ProjectGuid>
   </PropertyGroup>
 </Project>
