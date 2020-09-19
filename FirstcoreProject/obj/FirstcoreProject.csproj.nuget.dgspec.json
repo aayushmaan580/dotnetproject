@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\FirstcoreProject.csproj": {}
+    "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstCoreProject\\FirstcoreProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\FirstcoreProject.csproj": {
+    "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstCoreProject\\FirstcoreProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\FirstcoreProject.csproj",
+        "projectUniqueName": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstCoreProject\\FirstcoreProject.csproj",
         "projectName": "FirstcoreProject",
-        "projectPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\FirstcoreProject.csproj",
+        "projectPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstCoreProject\\FirstcoreProject.csproj",
         "packagesPath": "C:\\Users\\aaythaku1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\obj\\",
+        "outputPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstCoreProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aaythaku1\\AppData\\Roaming\\NuGet\\NuGet.Config"

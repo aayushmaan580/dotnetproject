@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+OEqLtKOqF6qhMqpmDyWDvyxFchWPzfQvZArgaBUubCf2Bt3jg/onKj6X9FwjW9RNBN20VFZQO/1BBVqoTDgjA==",
+  "dgSpecHash": "DyPl17JEcnrViy9G5ZOGz48n+ly9tSRhGK+PpqUFro5SmXp39pNW3Za5LQYrphN0W205lPo5BqWy22B5yvDyFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\FirstcoreProject.csproj",
+  "projectFilePath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstCoreProject\\FirstcoreProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aaythaku1\\.nuget\\packages\\coverlet.msbuild\\2.9.0\\coverlet.msbuild.2.9.0.nupkg.sha512",
     "C:\\Users\\aaythaku1\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",

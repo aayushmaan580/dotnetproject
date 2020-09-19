@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
   <Modules>
-    <Module hash="9B3D8FB5-9F8A-4CB1-8E82-4CB6EFF22D38">
+    <Module hash="827076B4-90C0-4795-B1EE-12F51C15F5B2">
       <ModulePath>FirstLib.dll</ModulePath>
-      <ModuleTime>2020-09-16T01:18:24</ModuleTime>
+      <ModuleTime>2020-09-19T08:37:51</ModuleTime>
       <ModuleName>FirstLib</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Users\aaythaku1\Documents\networkspace\FirstLib\Class1.cs" />

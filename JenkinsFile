@@ -24,6 +24,38 @@ pipeline {
     bat 'dotnet build '
    }
   }
+stage('Test') {
+            steps {
+                bat "dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover"
+            
+            }
+        }
+stage('SonarQube') {
+            steps {
+                withSonarQubeEnv('sonarqube') {
+                     
+                    bat "dotnet build-server shutdown"
+                    bat """dotnet SonarScanner begin /k:FirstCoreProject /d:sonar.host.url=http://localhost:9000 /d:sonar.login="7527a64f7e3050c615c6eb5f366be85d0472a574" /d:sonar.cs.opencover.reportsPaths="./FirstCoreProject/coverage.opencover.xml" /d:sonar.coverage.exclusions="**Test*.cs"""
+                    bat "dotnet build FirstSolution.sln"
+                    bat """dotnet SonarScanner end /d:sonar.login="7527a64f7e3050c615c6eb5f366be85d0472a574"""
+                    
+                }
+            }
+        }
+        stage("Quality Gate") {
+            steps {
+              timeout(time: 5, unit: 'MINUTES') {
+                waitForQualityGate abortPipeline: true
+              }
+            }
+        }
+        stage('Run') {
+            steps {
+                
+                bat "cd FirstCoreProject"
+                bat "dotnet run --project FirstCoreProject"
+            }
+        }
   stage('Pack') {
    steps {
     bat 'dotnet pack '
