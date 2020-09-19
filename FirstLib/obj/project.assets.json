@@ -363,11 +363,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\networkspace\\FirstLib\\FirstLib.csproj",
+      "projectUniqueName": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstLib\\FirstLib.csproj",
       "projectName": "FirstLib",
-      "projectPath": "c:\\networkspace\\FirstLib\\FirstLib.csproj",
+      "projectPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstLib\\FirstLib.csproj",
       "packagesPath": "C:\\Users\\aaythaku1\\.nuget\\packages\\",
-      "outputPath": "c:\\networkspace\\FirstLib\\obj\\",
+      "outputPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aaythaku1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -413,7 +413,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

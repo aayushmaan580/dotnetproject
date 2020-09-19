@@ -1,4 +1,6 @@
+using System;
 using Xunit;
+using FluentAssertions;
 using FirstLib;
 
 namespace Tests
@@ -6,34 +8,30 @@ namespace Tests
     public class Test1
     {
         [Fact]
-        public void isPrintingHi() {
-            var obj = new Addition();
-            Assert.Equal(obj.display(), "Hi");
-        }
-
-        [Fact]
         public void isAdding() {
-            var obj = new Addition();
-            Assert.Equal(obj.calculate(1, 3), 4);
+            var obj = new Addition(1.0, 3.0);
+            obj.calculate();
+            Assert.Equal(obj.result(), 4.0);
         }
 
         [Fact]
         public void isSubtracting() {
-            var obj = new Subtraction();
-            Assert.Equal(obj.calculate(1, 3), -2);
+            var obj = new Subtraction(1.0, 3.0);
+            obj.calculate();
+            Assert.Equal(obj.result(), -2);
         }
 
         [Fact]
         public void isDividing() {
-            var obj = new Divide();
-            Assert.Equal(obj.calculate(10, 2), 5);
+            var obj = new Division(10.0, 2.0);
+            obj.calculate();
+            Assert.Equal(obj.result(), 5.0);
         }
 
-        // [Fact]
-        // public void cannotDividebyZero() {
-        //     var obj = new Divide();
-        //     var ex = Assert.Throws<>(() => obj.calculate(7, 0));
-        //     Assert.IsType<ArithmeticException>(ex); 
-        // }
+        [Fact]
+        public void cannotDividebyZero() {
+            var obj = new Division();
+            Assert.Throws<DivideByZeroException>(() => obj.calculate());
+        }
     }
 }

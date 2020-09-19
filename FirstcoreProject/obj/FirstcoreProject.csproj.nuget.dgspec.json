@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\networkspace\\FirstCoreProject\\FirstcoreProject.csproj": {}
+    "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\FirstcoreProject.csproj": {}
   },
   "projects": {
-    "C:\\networkspace\\FirstCoreProject\\FirstcoreProject.csproj": {
+    "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\FirstcoreProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\networkspace\\FirstCoreProject\\FirstcoreProject.csproj",
+        "projectUniqueName": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\FirstcoreProject.csproj",
         "projectName": "FirstcoreProject",
-        "projectPath": "C:\\networkspace\\FirstCoreProject\\FirstcoreProject.csproj",
+        "projectPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\FirstcoreProject.csproj",
         "packagesPath": "C:\\Users\\aaythaku1\\.nuget\\packages\\",
-        "outputPath": "C:\\networkspace\\FirstCoreProject\\obj\\",
+        "outputPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstcoreProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aaythaku1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\networkspace\\FirstLib\\FirstLib.csproj": {
-                "projectPath": "C:\\networkspace\\FirstLib\\FirstLib.csproj"
+              "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstLib\\FirstLib.csproj": {
+                "projectPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstLib\\FirstLib.csproj"
               }
             }
           }
@@ -40,9 +40,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
             "Microsoft.TestPlatform.TestHost": {
               "target": "Package",
               "version": "[16.7.1, )"
+            },
+            "coverlet.msbuild": {
+              "target": "Package",
+              "version": "[2.9.0, )"
             },
             "xunit": {
               "target": "Package",
@@ -68,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\networkspace\\FirstLib\\FirstLib.csproj": {
+    "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstLib\\FirstLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\networkspace\\FirstLib\\FirstLib.csproj",
+        "projectUniqueName": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstLib\\FirstLib.csproj",
         "projectName": "FirstLib",
-        "projectPath": "C:\\networkspace\\FirstLib\\FirstLib.csproj",
+        "projectPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstLib\\FirstLib.csproj",
         "packagesPath": "C:\\Users\\aaythaku1\\.nuget\\packages\\",
-        "outputPath": "C:\\networkspace\\FirstLib\\obj\\",
+        "outputPath": "C:\\Users\\aaythaku1\\Documents\\networkspace\\FirstLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aaythaku1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -125,7 +133,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

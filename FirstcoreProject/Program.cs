@@ -7,10 +7,12 @@ namespace FirstcoreProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            System.Console.WriteLine("New line");
-            var obj = new FirstLib.Addition();
-            Console.WriteLine(obj.display());
+            System.Console.WriteLine("Enter Choice");
+            int ch = System.Convert.ToInt32(System.Console.ReadLine());
+            Arithmetic a  = ArithmeticFactory.getFactory(ch);
+            a.read();
+            a.calculate();
+            a.display();
         }
     }
 }

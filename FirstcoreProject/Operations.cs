@@ -2,32 +2,80 @@ using System;
 
 namespace FirstLib
 {
-    class Addition : A.Arithmetic
+    class Addition : Arithmetic
     {
-        public int calculate(int num1, int num2) {
-            return (num1+num2);
+        public Addition() : base() {
+
         }
-        public String display() {
-            return "Hi";
+        public Addition(double a, double b) : base(a, b) {
+
+        }
+        override public void calculate() {
+            this.c = this.a + this.b;
+        }
+
+        public sealed override void display() {
+            System.Console.WriteLine("Addition");
+            base.display();
+        }
+
+    }
+
+    class Subtraction : Arithmetic
+    {
+        public Subtraction() : base() {
+
+        }
+        public Subtraction(double a, double b) : base(a, b) {
+
+        }
+        override public void calculate() {
+            this.c =  (this.a - this.b);
+        }
+
+        public sealed override void display() {
+            System.Console.WriteLine("Subtraction");
+            base.display();
         }
     }
 
-    class Subtraction : A.Arithmetic
+    class Multiplication : Arithmetic
     {
-        public int calculate(int num1, int num2) {
-            return (num1-num2);
+        public Multiplication() : base() {
+
+        }
+        public Multiplication(double a, double b) : base(a, b) {
+
+        }
+        override public void calculate() {
+            this.c =  (this.a * this.b);
+        }
+
+        public sealed override void display() {
+            System.Console.WriteLine("Multiplication");
+            base.display();
         }
     }
 
-    class Divide : A.Arithmetic
+    class Division : Arithmetic
     {
-        public int calculate(int num1, int num2) {
-            if(num2==0) {
-                Exception e = new ArithmeticException("Can't divide by zero");
-                throw (e);
+        public Division() : base() {
+
+        }
+        public Division(double a, double b) : base(a, b) {
+
+        }
+        override public void calculate() {
+            if(this.b==0) { 
+                throw (new DivideByZeroException());
             }
             else
-                return num1/num2;
+                this.c = this.a/this.b;
+        }
+        public sealed override void display() {
+            System.Console.WriteLine("Multiplication");
+            base.display();
         }
     }
+
 }
